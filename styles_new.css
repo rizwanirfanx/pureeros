@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.relative{
+	position: relative;
+}
+.flex{
+	display: flex;
+}
+.top-most {
+	top: 0;
+}
+.left-most{
+	left: 0;
+}
+
+.w-full{
+	width: 100%;
+}
+
+.h-full{
+
+	height: 100%;
+}
+
+.w-screen{
+	width: 100vw;
+}
+
+.h-screen{
+
+	height: 100vh;
+}
+
+.fit-cover{
+	object-fit: cover;
+}
+
+.z-low{
+	z-index: -1;
+}
+.z-high{
+	z-index: 99;
+}
+

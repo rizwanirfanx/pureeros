@@ -1,0 +1,24 @@
+
+	<div data-scroll-container data-scroll-speed=".3">
+		<section data-scroll-section  class="parallax-section h-screen w-screen relative">
+			<div data-scroll-speed=".3"  data-scroll class="video-wrapper w-full h-full">
+				<video autoplay loop class="fit-cover w-full h-full">
+					<source src="./assets/63d3b8d87e4bf481ac8428d6_Pantheone x Natura video 4K_TIM 3-transcode.mp4">
+				</video>
+			</div>
+			<div class="content absolute top-most left-most h-full w-full flex">
+				<h1 data-scroll data-scroll-speed="-3" class="z-high">Molested</h1>
+
+			</div>
+
+
+		</section>
+		<section data-scroll-section>
+			<h1 data-scroll>Hey</h1>
+			<p data-scroll>👋</p>
+		</section>
+		<section data-scroll-section>
+			<h2 data-scroll data-scroll-speed="1">What's up?</h2>
+			<p data-scroll data-scroll-speed="2">😬</p>
+		</section>
+	</div>

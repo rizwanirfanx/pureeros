@@ -1,0 +1,84 @@
+.flex{
+	display: flex;
+}
+.align-center{
+	align-items: center;
+}
+.hero-container {
+	position: relative;
+	height: 100vh;
+}
+
+.hero-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hero-title {
+}
+
+.intro-container {
+	height: 100vh;
+	padding: 0 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bg-color);
+
+}
+
+p {
+	max-width: 800px;
+	color: var(--main-color);
+	font-size: 26px;
+	line-height: 2;
+	font-weight: 300;
+	text-align: center;
+}
+
+.change-radius:hover{
+	border-radius: 10px;
+}
+
+.change-width:hover{
+	transform: scale(0.98);
+}
+
+.change-width-lg:hover{
+	width: 90%;
+}
+.change-height-lg:hover{
+	height: 90%;
+}
+.scale-down-on-hover:hover{
+	transform: scale(0.95);
+}
+.mx-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ease-io-transition{
+	transition: all 0.3s ease-in-out;
+}
+
+.w-full{
+	width: 100%;
+}
+.w-half{
+	width: 50%;
+}
+.h-full{
+	height: 100%;
+}
+.text-center{
+	text-align: center;
+}
+.absolute{
+	position: absolute;
+
+}
+.bottom{
+	bottom: 50%;
+}
